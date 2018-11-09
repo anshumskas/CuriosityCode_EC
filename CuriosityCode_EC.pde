@@ -2,8 +2,6 @@
 PImage img;
 void setup(){
   size(500,500);
-  img = loadImage ("photo-1483982258113-b72862e6cff6.jpg");
-  image(img,0,0,width/1,height/1);
 }
 void draw() {
 if(mousePressed) {
